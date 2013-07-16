@@ -69,7 +69,7 @@ if (autoqueue && ($('div#button-dj-quit').css('display')=='none') && ($('div#but
 initListeners();
 
 function rand(){
-    randtimeout = Math.random() * 10;
+    randtimeout = Math.random() * 45;
     randtimeout = Math.round(randtimeout * 1000);
     return randtimeout;
 }
